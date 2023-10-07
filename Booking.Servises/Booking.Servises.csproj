@@ -6,4 +6,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Booking.Context.Contracts\Booking.Context.Contracts.csproj" />
+    <ProjectReference Include="..\Booking.Repositories.Contracts\Booking.Repositories.Contracts.csproj" />
+    <ProjectReference Include="..\Booking.Servises.Contracts\Booking.Servises.Contracts.csproj" />
+  </ItemGroup>
+
 </Project>
