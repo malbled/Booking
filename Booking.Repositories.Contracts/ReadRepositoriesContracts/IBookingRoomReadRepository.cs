@@ -12,6 +12,7 @@ namespace Booking.Repositories.Contracts.ReadInterfaces
         /// </summary>
         Task<List<BookingRoom>> GetAllAsync(CancellationToken cancellationToken);
 
+
         /// <summary>
         /// Получить <see cref="BookingRoom"/> по идентификатору
         /// </summary>
